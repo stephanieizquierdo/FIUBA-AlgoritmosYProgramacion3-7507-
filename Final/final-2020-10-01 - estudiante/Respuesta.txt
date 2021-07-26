@@ -1,0 +1,35 @@
+a. ¿Qué potenciales problemas de diseño encuentra en el cóodigo? Enumérelos explicando PARA CADA UNO de ellos por qué considera que representan un problema de diseño.
+
+      Codigo muy estructurado: Si el modelo se amplia, el codigo se vuelve muy tedioso porque al estar tan estructurado
+      Hay que ir clase por clase modificando, escribiendo o borrando y esto es muy propenso a adquirir Bugs y ademas de que se
+      contrapone con los pilares de POO
+
+     Esto recien dicho hace que el codigo sea Fragil -> quiere decir que por cualquier minimo cambio se puede empezar a romper
+     el codigo que ya teniamos hecho, hay que volver a codear.
+
+     No cumple el Tell dont ask -> esto es por el hecho de que la logica no esta incorporada en las clases que corresponden.
+     Esto provoca que se hagan ifs, porque si es tal cosa hago otra, entocnes por cada cosa que agregues vas a tener que volver a codear
+     y volvemos a que el codigo es estructurado
+
+     Tambien podemos observar que hay getter y setter lo cual significa que estamos rompiendo el encapsulamiento de las clases
+
+    Mala practica: usar la terminal de salida para informar errores.
+
+b. ¿Se viola algún(os) principio(s) de diseño ? ¿Cuál(es)?
+
+    OpenClose: Por lo dicho anteriormente podemos observar claramente que el modelo rompe con el principio OpenClose el cual
+    estipula que el modelo debe ser abierto para extensiones pero cerrado para modificaciones.
+
+    Single responsability: Este principio está siendo violado dado que las clases (Vegetta, Goku) poseen más de una razon de cambio
+
+SUPUESTOS:
+
+    -todos los personajes saben atacar con bola de energia dado que es el ataque super basico.
+
+    -Por el tiempo me quedo sin hacer el refactor del codigo repetido en las funciones de en Goku y vegeta,
+     que podria haber estado en la clase madre, lo mismo con los kaioken
+
+    -Dado que se utilizo doubledispatch podriamos decir que el openclose ahora es violado Parcialmente, pero es
+    orientado a OOP
+
+
