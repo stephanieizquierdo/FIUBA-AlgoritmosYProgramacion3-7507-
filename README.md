@@ -2,7 +2,7 @@
 
 Colección de trabajos prácticos presentados para la materia Algoritmos y Programacion 3 curso Suarez de la facultad de ingeniera de la universidad de Buenos Aires.
 
-Durante esta materia se busca que los alumnos adquieran los conceptos centrales de la programación orientada a objetos más algo de diseño y calidad de código, junto con algunas buenas prácticas básicas de construcción de software. También se ve al final de la materia parte del desarrollo de aplicaciones de interfaz de usuario gráfica y algunas problemáticas típicas, como persistencia y concurrencia.
+Durante esta materia se busca que los alumnos adquieran los conceptos centrales de la **programación orientada a objetos** más algo de diseño y calidad de código, junto con algunas buenas prácticas básicas de construcción de software. También se ve al final de la materia parte del desarrollo de aplicaciones de interfaz de usuario gráfica y algunas problemáticas típicas, como persistencia y concurrencia.
 
 Durante la materia se utilizó Java y Smalltalk.
 
